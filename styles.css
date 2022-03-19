@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Fredoka:wght@300&family=League+Gothic&family=League+Spartan&family=Rowdies:wght@300&family=Source+Sans+Pro&display=swap');
+
+/* Hidden text */
+
+.report_2, .full_name {
+  display: none;
+}
+
+.body {
+  background: #151D3B;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+
+ position: absolute;
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card_layer_2 ,
+.card_layer_3,
+.card_layer_4,
+.card_layer_5,
+.card_layer_6,
+.card_layer_7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-start;
+
+}
+
+.card_layer_20   {
+   position: absolute;
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: 0.2fr 0.5fr 1fr;
+  border-radius: 10px;
+  background: #0E185F;
+}
+
+.card_layer_title {
+  grid-row: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card_layer_time {
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.5em;
+}
+
+/* This is card one */
+.card_1 {
+  grid-column:1/2 ;
+  grid-row:1/3 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ border: 1px #151D3B solid;
+}
+
+
+.card_10 {
+  width: 80%;
+  height: 80%;
+  background: #0E185F;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 0.3fr;
+}
+
+.card_10_top {
+  grid-column: 1/2;
+  background: #8A39E1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 10px;
+}
+
+.card_1_img {
+  grid-row: 1/2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5em;
+}
+
+.card_profile {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.card_1_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_1_info .report, .card_fname, .card_lname {
+  margin:0px 0px 0.2em;
+  padding-left:0.5em;
+}
+
+.card_10_bottom {
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.card_10_bottom .link_1, .link_2, .link_3 {
+  margin:0px;
+  padding-left: 0.5em;
+}
+
+/* This is card one */
+
+/* This is card two */
+
+.card_2 {
+  grid-column:2/3 ;
+  grid-row:1/2 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card_20 , .card_30, .card_40 , .card_50, .card_60,
+.card_70 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 2px solid  #151D3B;
+  position: relative;
+}
+
+.card_layer_2 {
+  background: #FF9F45;
+
+}
+
+
+/* This is card two */
+
+/* This is card three */
+
+.card_3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_layer_3 {
+  background:#B8DFD8 ;
+}
+
+/* This is card three */
+
+/* This is card four */
+
+.card_4 {
+  grid-column:4/5 ;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_layer_4 {
+  background:#F473B9 ;
+}
+
+/* This is card four */
+
+/* This is card five */
+.card_5 {
+  grid-column:2/3 ;
+  grid-row:2/3 ;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_layer_5 {
+  background: #85C88A;
+}
+/* This is card five */
+
+/* This is card six */
+
+.card_6 {
+  grid-column:3/4 ;
+  grid-row:2/3 ;
+
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_layer_6 {
+  background: #573391;
+}
+
+/* This is card six */
+
+/* This is card seven */
+
+.card_7 {
+  grid-column:4/5 ;
+  grid-row:2/3 ;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_layer_7 {
+  background: #FFE61B;
+}
+
+/* This is card seven */
+
+
+/* Fonts size */
+
+.report, .card_fname, .card_lname , .full_name{
+   font-family: 'League Spartan', sans-serif;
+   font-size:5vh;
+  color: white;
+}
+
+.link_1 , .link_2, .link_3 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 3vh;
+  color: #F3E9DD;
+}
+
+.link_1:hover , .link_2:hover , .link_3:hover {
+  color: black;
+}
+
+i {
+  color: white;
+}
+
+.layer_title {
+  font-family: 'Fredoka', sans-serif;
+  color: white;
+  margin:0px;
+  padding:0px;
+}
+
+.hrs , .last_week {
+  margin:0px 0px 0.2em;
+  padding:0px;
+}
+
+.hrs {
+ font-family: 'League Spartan', sans-serif;
+  font-size: 9vh;
+  color: white;
+}
+
+.last_week {
+   font-family: 'League Spartan', sans-serif;
+  font-size: 2vh;
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Hidden text */
+
+  .report , .full_name {
+    display: block;
+    font-size: 2vw;
+    margin:0px;
+    padding:0px;
+  }
+
+  .full_name {
+    display: block;
+  }
+
+  body {
+    min-height: 100vw;
+  }
+
+  .time {
+    min-height: 100%;
+     grid-template-columns: 1fr;
+  grid-template-rows: repeat(13,1fr);
+  }
+
+  .card_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .card_2 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+
+  .card_3 {
+    grid-column: 1/2;
+    grid-row: 4/6;
+  }
+
+  .card_4 {
+    grid-column: 1/2;
+    grid-row: 6/8;
+  }
+
+  .card_5 {
+    grid-column: 1/2;
+    grid-row: 8/10;
+  }
+
+  .card_6 {
+    grid-column: 1/2;
+    grid-row: 10/12;
+  }
+
+  .card_7 {
+    grid-column: 1/2;
+    grid-row: 12/14;
+  }
+
+  .card_layer_time {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card_10 {
+    height: 90%;
+     grid-template-rows: 1fr 0.5fr;
+  }
+
+  .card_1_info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .card_10_top {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .card_1_img {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .card_profile {
+    width: 30%;
+    height: 60%;
+    border: 2px solid white;
+  }
+
+  .card_10_bottom {
+    grid-row: 2/4;
+    padding: 0em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+
+
+  /* Fonts */
+
+  .full_name {
+    font-size: 3vw;
+  }
+
+  .card_fname, .card_lname {
+    display: none;
+  }
+
+  .link_1, .link_2, .link_3 {
+    margin:0px;
+    padding:0px;
+  }
+
+  .hrs {
+    font-size: 4vw;
+    margin:0px;
+    padding: 0px;
+  }
+
+}
